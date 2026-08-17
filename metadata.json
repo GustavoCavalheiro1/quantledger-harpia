@@ -1,0 +1,6 @@
+{
+  "name": "Harpia Finance Asset",
+  "description": "Plataforma de Hedge Fund Quantitativo com Otimização Black-Litterman e HRP, Atribuição de Alfa por IA e Clássica, Monitor de Digital Twin e Simulador de Estresse.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
