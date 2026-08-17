@@ -84,8 +84,6 @@ python pipeline_ponta_a_ponta.py
 
 As variáveis de ambiente devem ser configuradas a partir de `.env.example`. Não inclua chaves reais ou credenciais no repositório.
 
-## Para recrutadores e gestores
-
 Este projeto demonstra a capacidade de estruturar uma solução que combina **engenharia de software, análise quantitativa, gestão de risco e comunicação para executivos**. Mais do que um conjunto de componentes visuais, o repositório apresenta uma visão de produto: quais perguntas o gestor precisa responder, quais controles devem existir antes de uma decisão e como os resultados podem ser comunicados de forma objetiva.
 
 A solução está posicionada como uma demonstração técnica e conceitual. Dados, integrações e resultados devem ser validados antes de qualquer uso em produção ou decisão financeira real.
