@@ -1,0 +1,22 @@
+flowchart LR
+    A[Fontes de dados<br/>Mercado · notícias · macro · carteira] --> B[Ingestão e validação]
+    B --> C[(Ledger e banco<br/>de demonstração)]
+    C --> D[Engine quantitativo]
+    D --> E[Scorers e modelos<br/>macro · notícias · risco]
+    E --> F[Motor de decisão assistida por IA]
+    F --> G{Limites e governança<br/>aprovados?}
+    G -->|Não| H[Alerta e revisão<br/>do comitê de risco]
+    G -->|Sim| I[Recomendação de cenário<br/>para o gestor]
+    H --> I
+    I --> J[Painéis executivos<br/>e relatórios]
+    J --> K[Monitoramento contínuo]
+    K --> A
+
+    classDef source fill:#172033,color:#fff,stroke:#c6a15b,stroke-width:2px;
+    classDef core fill:#e9f0ff,color:#0b1220,stroke:#2d6cdf,stroke-width:2px;
+    classDef decision fill:#fff3d6,color:#0b1220,stroke:#c6a15b,stroke-width:2px;
+    classDef output fill:#e8f6ef,color:#0b1220,stroke:#2d8a61,stroke-width:2px;
+    class A,C source;
+    class B,D,E core;
+    class F,G,H,I decision;
+    class J,K output;

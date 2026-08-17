@@ -1,0 +1,22 @@
+flowchart TD
+    A[Dados de mercado e contexto] --> B[Feature engineering<br/>e normalização]
+    B --> C[Modelos e scorers<br/>risco · macro · notícias]
+    C --> D[IA interpreta sinais<br/>e sintetiza cenários]
+    D --> E{Cenário respeita<br/>limites do fundo?}
+    E -->|Não| F[Rejeitar ou ajustar cenário<br/>gerar alerta de risco]
+    E -->|Sim| G[Priorizar oportunidades<br/>e impactos na carteira]
+    F --> H[Revisão do comitê<br/>e do gestor]
+    G --> H
+    H --> I[Decisão humana registrada]
+    I --> J[Execução monitorada<br/>e atribuição de resultado]
+    J --> K[Feedback para modelos<br/>e melhoria contínua]
+    K --> B
+
+    classDef input fill:#172033,color:#fff,stroke:#c6a15b,stroke-width:2px;
+    classDef ai fill:#e9f0ff,color:#0b1220,stroke:#2d6cdf,stroke-width:2px;
+    classDef gate fill:#fff3d6,color:#0b1220,stroke:#c6a15b,stroke-width:2px;
+    classDef human fill:#e8f6ef,color:#0b1220,stroke:#2d8a61,stroke-width:2px;
+    class A input;
+    class B,C,D ai;
+    class E,F,G gate;
+    class H,I,J,K human;

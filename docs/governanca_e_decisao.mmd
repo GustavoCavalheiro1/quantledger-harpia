@@ -1,0 +1,20 @@
+flowchart TB
+    A[Comitê de Investimentos<br/>Diretrizes e mandato] --> B[Gestor do Fundo<br/>Decisão final e alocação]
+    A --> C[Comitê de Risco<br/>Limites, exceções e controles]
+    B --> D[Motor Quantitativo<br/>Sinais, cenários e otimização]
+    C --> D
+    D --> E[Pesquisadores e Engenheiros<br/>Modelos, dados e validação]
+    E --> F[Data & Operations<br/>Ingestão, qualidade e execução]
+    F --> D
+    D --> G[Relatórios e dashboards<br/>Comunicação executiva]
+    G --> B
+    G --> C
+
+    classDef governance fill:#172033,color:#fff,stroke:#c6a15b,stroke-width:2px;
+    classDef decision fill:#fff3d6,color:#0b1220,stroke:#c6a15b,stroke-width:2px;
+    classDef engine fill:#e9f0ff,color:#0b1220,stroke:#2d6cdf,stroke-width:2px;
+    classDef ops fill:#e8f6ef,color:#0b1220,stroke:#2d8a61,stroke-width:2px;
+    class A,C governance;
+    class B,G decision;
+    class D,E engine;
+    class F ops;
