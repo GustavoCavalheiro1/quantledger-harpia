@@ -48,7 +48,7 @@ As variáveis de ambiente devem ser configuradas a partir de `.env.example`. Nã
 
 ## Relatório executivo
 
-O arquivo [`docs/Harpia_Relatorio_Final_Quant_AI_2026_5_paginas.docx`](docs/Harpia_Relatorio_Final_Quant_AI_2026_5_paginas.docx) apresenta a visão consolidada da solução, seus objetivos e aplicações. Ele foi incluído para facilitar a avaliação por recrutadores, gestores e stakeholders não técnicos.
+A versão final do relatório está disponível em [`docs/Harpia_Relatorio_Final_Quant_AI_2026_vFinal.docx`](docs/Harpia_Relatorio_Final_Quant_AI_2026_vFinal.docx). A versão anterior, com cinco páginas, permanece disponível em [`docs/Harpia_Relatorio_Final_Quant_AI_2026_5_paginas.docx`](docs/Harpia_Relatorio_Final_Quant_AI_2026_5_paginas.docx) para referência. Os documentos apresentam a visão consolidada da solução, seus objetivos e aplicações, facilitando a avaliação por recrutadores, gestores e stakeholders não técnicos.
 
 ## Observação de escopo
 
